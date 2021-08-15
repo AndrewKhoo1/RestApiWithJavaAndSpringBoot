@@ -30,4 +30,4 @@ Run the spring boot application using:
 
 The Api will now start on "http://localhost:8080"
 
-Finally, run index.html from the main directory to start the javascript web client and view the results of your requests in the console
+Finally, run "index.html" from the main directory to start the javascript web client and view the results of your requests in the console
