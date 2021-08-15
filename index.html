@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Expense Tracker</h2>
+
+    <script>
+        fetch('http://localhost:8080/api/categories', {
+            headers: { 'Authorization': "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MjkwMjM0ODgsImV4cCI6MTYyOTAzMDY4OCwidXNlcklkIjoyLCJlbWFpbCI6Imp0MkBnbWFpbC5jb20iLCJmaXJzdE5hbWUiOiJKYXNvbjIiLCJsYXN0TmFtZSI6IlRhbmcyIn0.-OTFPRlX4SxDOxr6QjQ_BndKtvJhzfjcBev_K8oDPhg"
+}
+        })
+        .then(res => res.json())
+        .then(res => console.log(res))
+        .catch(err => console.error(err));
+    </script>
+</body>
+</html>
