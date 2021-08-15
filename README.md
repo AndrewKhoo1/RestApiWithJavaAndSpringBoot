@@ -28,4 +28,6 @@ Run the spring boot application using:
 
     ./mvnw spring-boot:run
 
-App will now start on "http://localhost:8080"
+Api will now start on "http://localhost:8080"
+
+Run index.html from the main directory to start the javascript web client and view the results of your requests in the console
